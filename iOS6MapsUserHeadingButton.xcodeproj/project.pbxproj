@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D95F930163995B100FA8F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F92F163995B100FA8F69 /* UIKit.framework */; };
+		7D95F932163995B100FA8F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F931163995B100FA8F69 /* Foundation.framework */; };
+		7D95F934163995B100FA8F69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F933163995B100FA8F69 /* CoreGraphics.framework */; };
+		7D95F9671639989200FA8F69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F9661639989200FA8F69 /* MapKit.framework */; };
+		7D95F9881639A0DF00FA8F69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */; };
+		7DC17D561639A2AC000F21B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DC17D541639A2AC000F21B9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6MapsUserHeadingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D95F92F163995B100FA8F69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D95F931163995B100FA8F69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D95F933163995B100FA8F69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D95F9661639989200FA8F69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7D95F9681639A07000FA8F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOS6MapsUserHeadingButton/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7D95F9691639A07000FA8F69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iOS6MapsUserHeadingButton/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7D95F96A1639A07000FA8F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iOS6MapsUserHeadingButton/ViewController.h; sourceTree = SOURCE_ROOT; };
+		7D95F96B1639A07000FA8F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iOS6MapsUserHeadingButton/ViewController.m; sourceTree = SOURCE_ROOT; };
+		7D95F9791639A09800FA8F69 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyButton.png; path = iOS6MapsUserHeadingButton/greyButton.png; sourceTree = SOURCE_ROOT; };
+		7D95F97A1639A09800FA8F69 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greyButton@2x.png"; path = "iOS6MapsUserHeadingButton/greyButton@2x.png"; sourceTree = SOURCE_ROOT; };
+		7D95F97B1639A09800FA8F69 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyButtonHighlight.png; path = iOS6MapsUserHeadingButton/greyButtonHighlight.png; sourceTree = SOURCE_ROOT; };
+		7D95F97C1639A09800FA8F69 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greyButtonHighlight@2x.png"; path = "iOS6MapsUserHeadingButton/greyButtonHighlight@2x.png"; sourceTree = SOURCE_ROOT; };
+		7D95F97D1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOS6MapsUserHeadingButton-Info.plist"; path = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7D95F97E1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iOS6MapsUserHeadingButton-Prefix.pch"; path = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7D95F97F1639A09800FA8F69 /* LocationBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationBlue.png; path = iOS6MapsUserHeadingButton/LocationBlue.png; sourceTree = SOURCE_ROOT; };
+		7D95F9801639A09800FA8F69 /* LocationBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationBlue@2x.png"; path = "iOS6MapsUserHeadingButton/LocationBlue@2x.png"; sourceTree = SOURCE_ROOT; };
+		7D95F9811639A09800FA8F69 /* LocationGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationGrey.png; path = iOS6MapsUserHeadingButton/LocationGrey.png; sourceTree = SOURCE_ROOT; };
+		7D95F9821639A09800FA8F69 /* LocationGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationGrey@2x.png"; path = "iOS6MapsUserHeadingButton/LocationGrey@2x.png"; sourceTree = SOURCE_ROOT; };
+		7D95F9831639A09800FA8F69 /* LocationHeadingBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationHeadingBlue.png; path = iOS6MapsUserHeadingButton/LocationHeadingBlue.png; sourceTree = SOURCE_ROOT; };
+		7D95F9841639A09800FA8F69 /* LocationHeadingBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationHeadingBlue@2x.png"; path = "iOS6MapsUserHeadingButton/LocationHeadingBlue@2x.png"; sourceTree = SOURCE_ROOT; };
+		7D95F9851639A09800FA8F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS6MapsUserHeadingButton/main.m; sourceTree = SOURCE_ROOT; };
+		7D95F9871639A0DF00FA8F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = iOS6MapsUserHeadingButton/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		7DC17D551639A2AC000F21B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D95F928163995B100FA8F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D95F9671639989200FA8F69 /* MapKit.framework in Frameworks */,
+				7D95F930163995B100FA8F69 /* UIKit.framework in Frameworks */,
+				7D95F932163995B100FA8F69 /* Foundation.framework in Frameworks */,
+				7D95F934163995B100FA8F69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D95F920163995B100FA8F69 = {
+			isa = PBXGroup;
+			children = (
+				7D95F935163995B100FA8F69 /* iOS6MapsUserHeadingButton */,
+				7D95F92E163995B100FA8F69 /* Frameworks */,
+				7D95F92C163995B100FA8F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D95F92C163995B100FA8F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D95F92E163995B100FA8F69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D95F9661639989200FA8F69 /* MapKit.framework */,
+				7D95F92F163995B100FA8F69 /* UIKit.framework */,
+				7D95F931163995B100FA8F69 /* Foundation.framework */,
+				7D95F933163995B100FA8F69 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D95F935163995B100FA8F69 /* iOS6MapsUserHeadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				7DC17D571639A2DA000F21B9 /* images */,
+				7D95F9681639A07000FA8F69 /* AppDelegate.h */,
+				7D95F9691639A07000FA8F69 /* AppDelegate.m */,
+				7D95F96A1639A07000FA8F69 /* ViewController.h */,
+				7D95F96B1639A07000FA8F69 /* ViewController.m */,
+				7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */,
+				7D95F936163995B100FA8F69 /* Supporting Files */,
+			);
+			path = iOS6MapsUserHeadingButton;
+			sourceTree = "<group>";
+		};
+		7D95F936163995B100FA8F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D95F9721639A09800FA8F69 /* en.lproj */,
+				7D95F97D1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Info.plist */,
+				7D95F97E1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Prefix.pch */,
+				7D95F9851639A09800FA8F69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D95F9721639A09800FA8F69 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7DC17D541639A2AC000F21B9 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = iOS6MapsUserHeadingButton/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		7DC17D571639A2DA000F21B9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7D95F9791639A09800FA8F69 /* greyButton.png */,
+				7D95F97A1639A09800FA8F69 /* greyButton@2x.png */,
+				7D95F97B1639A09800FA8F69 /* greyButtonHighlight.png */,
+				7D95F97C1639A09800FA8F69 /* greyButtonHighlight@2x.png */,
+				7D95F97F1639A09800FA8F69 /* LocationBlue.png */,
+				7D95F9801639A09800FA8F69 /* LocationBlue@2x.png */,
+				7D95F9811639A09800FA8F69 /* LocationGrey.png */,
+				7D95F9821639A09800FA8F69 /* LocationGrey@2x.png */,
+				7D95F9831639A09800FA8F69 /* LocationHeadingBlue.png */,
+				7D95F9841639A09800FA8F69 /* LocationHeadingBlue@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D95F92A163995B100FA8F69 /* iOS6MapsUserHeadingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D95F94F163995B100FA8F69 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */;
+			buildPhases = (
+				7D95F927163995B100FA8F69 /* Sources */,
+				7D95F928163995B100FA8F69 /* Frameworks */,
+				7D95F929163995B100FA8F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS6MapsUserHeadingButton;
+			productName = iOS6MapsUserHeadingButton;
+			productReference = 7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D95F922163995B100FA8F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Juan Carlos Alonso";
+			};
+			buildConfigurationList = 7D95F925163995B100FA8F69 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D95F920163995B100FA8F69;
+			productRefGroup = 7D95F92C163995B100FA8F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D95F92A163995B100FA8F69 /* iOS6MapsUserHeadingButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D95F929163995B100FA8F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D95F9881639A0DF00FA8F69 /* MainStoryboard.storyboard in Resources */,
+				7DC17D561639A2AC000F21B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D95F927163995B100FA8F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D95F9871639A0DF00FA8F69 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC17D541639A2AC000F21B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC17D551639A2AC000F21B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D95F94D163995B100FA8F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D95F94E163995B100FA8F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D95F950163995B100FA8F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch";
+				INFOPLIST_FILE = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist";
+				PRODUCT_NAME = iOS6MapsUserHeadingButton;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D95F951163995B100FA8F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch";
+				INFOPLIST_FILE = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist";
+				PRODUCT_NAME = iOS6MapsUserHeadingButton;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D95F925163995B100FA8F69 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D95F94D163995B100FA8F69 /* Debug */,
+				7D95F94E163995B100FA8F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D95F94F163995B100FA8F69 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D95F950163995B100FA8F69 /* Debug */,
+				7D95F951163995B100FA8F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D95F922163995B100FA8F69 /* Project object */;
+}
