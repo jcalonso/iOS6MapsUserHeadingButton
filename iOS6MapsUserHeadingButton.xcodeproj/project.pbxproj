@@ -7,131 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D95F930163995B100FA8F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F92F163995B100FA8F69 /* UIKit.framework */; };
-		7D95F932163995B100FA8F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F931163995B100FA8F69 /* Foundation.framework */; };
-		7D95F934163995B100FA8F69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F933163995B100FA8F69 /* CoreGraphics.framework */; };
-		7D95F9671639989200FA8F69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D95F9661639989200FA8F69 /* MapKit.framework */; };
-		7D95F9881639A0DF00FA8F69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */; };
-		7DC17D561639A2AC000F21B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DC17D541639A2AC000F21B9 /* InfoPlist.strings */; };
+		7D98A620163AA36400AAD327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D98A61F163AA36400AAD327 /* UIKit.framework */; };
+		7D98A622163AA36400AAD327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D98A621163AA36400AAD327 /* Foundation.framework */; };
+		7D98A624163AA36400AAD327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D98A623163AA36400AAD327 /* CoreGraphics.framework */; };
+		7D98A62A163AA36400AAD327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A628163AA36400AAD327 /* InfoPlist.strings */; };
+		7D98A62C163AA36400AAD327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98A62B163AA36400AAD327 /* main.m */; };
+		7D98A630163AA36400AAD327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98A62F163AA36400AAD327 /* AppDelegate.m */; };
+		7D98A632163AA36400AAD327 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A631163AA36400AAD327 /* Default.png */; };
+		7D98A634163AA36400AAD327 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A633163AA36400AAD327 /* Default@2x.png */; };
+		7D98A636163AA36400AAD327 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A635163AA36400AAD327 /* Default-568h@2x.png */; };
+		7D98A644163AA40100AAD327 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A643163AA40100AAD327 /* MainStoryboard.storyboard */; };
+		7D98A647163AA46000AAD327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98A646163AA46000AAD327 /* ViewController.m */; };
+		7D98A67B163AA5A800AAD327 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D98A67A163AA5A800AAD327 /* MapKit.framework */; };
+		7D98A68B163AA67300AAD327 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A681163AA67300AAD327 /* greyButton.png */; };
+		7D98A68C163AA67300AAD327 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A682163AA67300AAD327 /* greyButton@2x.png */; };
+		7D98A68D163AA67300AAD327 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A683163AA67300AAD327 /* greyButtonHighlight.png */; };
+		7D98A68E163AA67300AAD327 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A684163AA67300AAD327 /* greyButtonHighlight@2x.png */; };
+		7D98A68F163AA67300AAD327 /* LocationBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A685163AA67300AAD327 /* LocationBlue.png */; };
+		7D98A690163AA67300AAD327 /* LocationBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A686163AA67300AAD327 /* LocationBlue@2x.png */; };
+		7D98A691163AA67300AAD327 /* LocationGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A687163AA67300AAD327 /* LocationGrey.png */; };
+		7D98A692163AA67300AAD327 /* LocationGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A688163AA67300AAD327 /* LocationGrey@2x.png */; };
+		7D98A693163AA67300AAD327 /* LocationHeadingBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A689163AA67300AAD327 /* LocationHeadingBlue.png */; };
+		7D98A694163AA67300AAD327 /* LocationHeadingBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D98A68A163AA67300AAD327 /* LocationHeadingBlue@2x.png */; };
+		7DA37B67163AAE2F00BD21CB /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA37B66163AAE2F00BD21CB /* icon_114.png */; };
+		7DA37B6A163AAE3300BD21CB /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA37B69163AAE3300BD21CB /* icon_57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6MapsUserHeadingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D95F92F163995B100FA8F69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7D95F931163995B100FA8F69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7D95F933163995B100FA8F69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D95F9661639989200FA8F69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		7D95F9681639A07000FA8F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOS6MapsUserHeadingButton/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		7D95F9691639A07000FA8F69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iOS6MapsUserHeadingButton/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		7D95F96A1639A07000FA8F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iOS6MapsUserHeadingButton/ViewController.h; sourceTree = SOURCE_ROOT; };
-		7D95F96B1639A07000FA8F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iOS6MapsUserHeadingButton/ViewController.m; sourceTree = SOURCE_ROOT; };
-		7D95F9791639A09800FA8F69 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyButton.png; path = iOS6MapsUserHeadingButton/greyButton.png; sourceTree = SOURCE_ROOT; };
-		7D95F97A1639A09800FA8F69 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greyButton@2x.png"; path = "iOS6MapsUserHeadingButton/greyButton@2x.png"; sourceTree = SOURCE_ROOT; };
-		7D95F97B1639A09800FA8F69 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyButtonHighlight.png; path = iOS6MapsUserHeadingButton/greyButtonHighlight.png; sourceTree = SOURCE_ROOT; };
-		7D95F97C1639A09800FA8F69 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greyButtonHighlight@2x.png"; path = "iOS6MapsUserHeadingButton/greyButtonHighlight@2x.png"; sourceTree = SOURCE_ROOT; };
-		7D95F97D1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOS6MapsUserHeadingButton-Info.plist"; path = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist"; sourceTree = SOURCE_ROOT; };
-		7D95F97E1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iOS6MapsUserHeadingButton-Prefix.pch"; path = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		7D95F97F1639A09800FA8F69 /* LocationBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationBlue.png; path = iOS6MapsUserHeadingButton/LocationBlue.png; sourceTree = SOURCE_ROOT; };
-		7D95F9801639A09800FA8F69 /* LocationBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationBlue@2x.png"; path = "iOS6MapsUserHeadingButton/LocationBlue@2x.png"; sourceTree = SOURCE_ROOT; };
-		7D95F9811639A09800FA8F69 /* LocationGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationGrey.png; path = iOS6MapsUserHeadingButton/LocationGrey.png; sourceTree = SOURCE_ROOT; };
-		7D95F9821639A09800FA8F69 /* LocationGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationGrey@2x.png"; path = "iOS6MapsUserHeadingButton/LocationGrey@2x.png"; sourceTree = SOURCE_ROOT; };
-		7D95F9831639A09800FA8F69 /* LocationHeadingBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationHeadingBlue.png; path = iOS6MapsUserHeadingButton/LocationHeadingBlue.png; sourceTree = SOURCE_ROOT; };
-		7D95F9841639A09800FA8F69 /* LocationHeadingBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LocationHeadingBlue@2x.png"; path = "iOS6MapsUserHeadingButton/LocationHeadingBlue@2x.png"; sourceTree = SOURCE_ROOT; };
-		7D95F9851639A09800FA8F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS6MapsUserHeadingButton/main.m; sourceTree = SOURCE_ROOT; };
-		7D95F9871639A0DF00FA8F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = iOS6MapsUserHeadingButton/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
-		7DC17D551639A2AC000F21B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7D98A61B163AA36400AAD327 /* iOS6MapsUserHeadingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6MapsUserHeadingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D98A61F163AA36400AAD327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D98A621163AA36400AAD327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D98A623163AA36400AAD327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D98A627163AA36400AAD327 /* iOS6MapsUserHeadingButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS6MapsUserHeadingButton-Info.plist"; sourceTree = "<group>"; };
+		7D98A629163AA36400AAD327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D98A62B163AA36400AAD327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D98A62D163AA36400AAD327 /* iOS6MapsUserHeadingButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS6MapsUserHeadingButton-Prefix.pch"; sourceTree = "<group>"; };
+		7D98A62E163AA36400AAD327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D98A62F163AA36400AAD327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D98A631163AA36400AAD327 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D98A633163AA36400AAD327 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D98A635163AA36400AAD327 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D98A643163AA40100AAD327 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7D98A645163AA46000AAD327 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D98A646163AA46000AAD327 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D98A67A163AA5A800AAD327 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7D98A681163AA67300AAD327 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		7D98A682163AA67300AAD327 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		7D98A683163AA67300AAD327 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		7D98A684163AA67300AAD327 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		7D98A685163AA67300AAD327 /* LocationBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationBlue.png; sourceTree = "<group>"; };
+		7D98A686163AA67300AAD327 /* LocationBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationBlue@2x.png"; sourceTree = "<group>"; };
+		7D98A687163AA67300AAD327 /* LocationGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationGrey.png; sourceTree = "<group>"; };
+		7D98A688163AA67300AAD327 /* LocationGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationGrey@2x.png"; sourceTree = "<group>"; };
+		7D98A689163AA67300AAD327 /* LocationHeadingBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationHeadingBlue.png; sourceTree = "<group>"; };
+		7D98A68A163AA67300AAD327 /* LocationHeadingBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationHeadingBlue@2x.png"; sourceTree = "<group>"; };
+		7DA37B66163AAE2F00BD21CB /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		7DA37B69163AAE3300BD21CB /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D95F928163995B100FA8F69 /* Frameworks */ = {
+		7D98A618163AA36400AAD327 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D95F9671639989200FA8F69 /* MapKit.framework in Frameworks */,
-				7D95F930163995B100FA8F69 /* UIKit.framework in Frameworks */,
-				7D95F932163995B100FA8F69 /* Foundation.framework in Frameworks */,
-				7D95F934163995B100FA8F69 /* CoreGraphics.framework in Frameworks */,
+				7D98A67B163AA5A800AAD327 /* MapKit.framework in Frameworks */,
+				7D98A620163AA36400AAD327 /* UIKit.framework in Frameworks */,
+				7D98A622163AA36400AAD327 /* Foundation.framework in Frameworks */,
+				7D98A624163AA36400AAD327 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D95F920163995B100FA8F69 = {
+		7D98A610163AA36400AAD327 = {
 			isa = PBXGroup;
 			children = (
-				7D95F935163995B100FA8F69 /* iOS6MapsUserHeadingButton */,
-				7D95F92E163995B100FA8F69 /* Frameworks */,
-				7D95F92C163995B100FA8F69 /* Products */,
+				7DA37B69163AAE3300BD21CB /* icon_57.png */,
+				7DA37B66163AAE2F00BD21CB /* icon_114.png */,
+				7D98A625163AA36400AAD327 /* iOS6MapsUserHeadingButton */,
+				7D98A61E163AA36400AAD327 /* Frameworks */,
+				7D98A61C163AA36400AAD327 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7D95F92C163995B100FA8F69 /* Products */ = {
+		7D98A61C163AA36400AAD327 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */,
+				7D98A61B163AA36400AAD327 /* iOS6MapsUserHeadingButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D95F92E163995B100FA8F69 /* Frameworks */ = {
+		7D98A61E163AA36400AAD327 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D95F9661639989200FA8F69 /* MapKit.framework */,
-				7D95F92F163995B100FA8F69 /* UIKit.framework */,
-				7D95F931163995B100FA8F69 /* Foundation.framework */,
-				7D95F933163995B100FA8F69 /* CoreGraphics.framework */,
+				7D98A67A163AA5A800AAD327 /* MapKit.framework */,
+				7D98A61F163AA36400AAD327 /* UIKit.framework */,
+				7D98A621163AA36400AAD327 /* Foundation.framework */,
+				7D98A623163AA36400AAD327 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D95F935163995B100FA8F69 /* iOS6MapsUserHeadingButton */ = {
+		7D98A625163AA36400AAD327 /* iOS6MapsUserHeadingButton */ = {
 			isa = PBXGroup;
 			children = (
-				7DC17D571639A2DA000F21B9 /* images */,
-				7D95F9681639A07000FA8F69 /* AppDelegate.h */,
-				7D95F9691639A07000FA8F69 /* AppDelegate.m */,
-				7D95F96A1639A07000FA8F69 /* ViewController.h */,
-				7D95F96B1639A07000FA8F69 /* ViewController.m */,
-				7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */,
-				7D95F936163995B100FA8F69 /* Supporting Files */,
+				7D98A680163AA65F00AAD327 /* images */,
+				7D98A643163AA40100AAD327 /* MainStoryboard.storyboard */,
+				7D98A62E163AA36400AAD327 /* AppDelegate.h */,
+				7D98A62F163AA36400AAD327 /* AppDelegate.m */,
+				7D98A645163AA46000AAD327 /* ViewController.h */,
+				7D98A646163AA46000AAD327 /* ViewController.m */,
+				7D98A626163AA36400AAD327 /* Supporting Files */,
 			);
 			path = iOS6MapsUserHeadingButton;
 			sourceTree = "<group>";
 		};
-		7D95F936163995B100FA8F69 /* Supporting Files */ = {
+		7D98A626163AA36400AAD327 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D95F9721639A09800FA8F69 /* en.lproj */,
-				7D95F97D1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Info.plist */,
-				7D95F97E1639A09800FA8F69 /* iOS6MapsUserHeadingButton-Prefix.pch */,
-				7D95F9851639A09800FA8F69 /* main.m */,
+				7D98A627163AA36400AAD327 /* iOS6MapsUserHeadingButton-Info.plist */,
+				7D98A628163AA36400AAD327 /* InfoPlist.strings */,
+				7D98A62B163AA36400AAD327 /* main.m */,
+				7D98A62D163AA36400AAD327 /* iOS6MapsUserHeadingButton-Prefix.pch */,
+				7D98A631163AA36400AAD327 /* Default.png */,
+				7D98A633163AA36400AAD327 /* Default@2x.png */,
+				7D98A635163AA36400AAD327 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D95F9721639A09800FA8F69 /* en.lproj */ = {
+		7D98A680163AA65F00AAD327 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				7DC17D541639A2AC000F21B9 /* InfoPlist.strings */,
-			);
-			name = en.lproj;
-			path = iOS6MapsUserHeadingButton/en.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
-		7DC17D571639A2DA000F21B9 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				7D95F9791639A09800FA8F69 /* greyButton.png */,
-				7D95F97A1639A09800FA8F69 /* greyButton@2x.png */,
-				7D95F97B1639A09800FA8F69 /* greyButtonHighlight.png */,
-				7D95F97C1639A09800FA8F69 /* greyButtonHighlight@2x.png */,
-				7D95F97F1639A09800FA8F69 /* LocationBlue.png */,
-				7D95F9801639A09800FA8F69 /* LocationBlue@2x.png */,
-				7D95F9811639A09800FA8F69 /* LocationGrey.png */,
-				7D95F9821639A09800FA8F69 /* LocationGrey@2x.png */,
-				7D95F9831639A09800FA8F69 /* LocationHeadingBlue.png */,
-				7D95F9841639A09800FA8F69 /* LocationHeadingBlue@2x.png */,
+				7D98A681163AA67300AAD327 /* greyButton.png */,
+				7D98A682163AA67300AAD327 /* greyButton@2x.png */,
+				7D98A683163AA67300AAD327 /* greyButtonHighlight.png */,
+				7D98A684163AA67300AAD327 /* greyButtonHighlight@2x.png */,
+				7D98A685163AA67300AAD327 /* LocationBlue.png */,
+				7D98A686163AA67300AAD327 /* LocationBlue@2x.png */,
+				7D98A687163AA67300AAD327 /* LocationGrey.png */,
+				7D98A688163AA67300AAD327 /* LocationGrey@2x.png */,
+				7D98A689163AA67300AAD327 /* LocationHeadingBlue.png */,
+				7D98A68A163AA67300AAD327 /* LocationHeadingBlue@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -139,13 +158,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D95F92A163995B100FA8F69 /* iOS6MapsUserHeadingButton */ = {
+		7D98A61A163AA36400AAD327 /* iOS6MapsUserHeadingButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D95F94F163995B100FA8F69 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */;
+			buildConfigurationList = 7D98A639163AA36400AAD327 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */;
 			buildPhases = (
-				7D95F927163995B100FA8F69 /* Sources */,
-				7D95F928163995B100FA8F69 /* Frameworks */,
-				7D95F929163995B100FA8F69 /* Resources */,
+				7D98A617163AA36400AAD327 /* Sources */,
+				7D98A618163AA36400AAD327 /* Frameworks */,
+				7D98A619163AA36400AAD327 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,70 +172,80 @@
 			);
 			name = iOS6MapsUserHeadingButton;
 			productName = iOS6MapsUserHeadingButton;
-			productReference = 7D95F92B163995B100FA8F69 /* iOS6MapsUserHeadingButton.app */;
+			productReference = 7D98A61B163AA36400AAD327 /* iOS6MapsUserHeadingButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D95F922163995B100FA8F69 /* Project object */ = {
+		7D98A612163AA36400AAD327 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Juan Carlos Alonso";
 			};
-			buildConfigurationList = 7D95F925163995B100FA8F69 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */;
+			buildConfigurationList = 7D98A615163AA36400AAD327 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7D95F920163995B100FA8F69;
-			productRefGroup = 7D95F92C163995B100FA8F69 /* Products */;
+			mainGroup = 7D98A610163AA36400AAD327;
+			productRefGroup = 7D98A61C163AA36400AAD327 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D95F92A163995B100FA8F69 /* iOS6MapsUserHeadingButton */,
+				7D98A61A163AA36400AAD327 /* iOS6MapsUserHeadingButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D95F929163995B100FA8F69 /* Resources */ = {
+		7D98A619163AA36400AAD327 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D95F9881639A0DF00FA8F69 /* MainStoryboard.storyboard in Resources */,
-				7DC17D561639A2AC000F21B9 /* InfoPlist.strings in Resources */,
+				7D98A62A163AA36400AAD327 /* InfoPlist.strings in Resources */,
+				7D98A632163AA36400AAD327 /* Default.png in Resources */,
+				7D98A634163AA36400AAD327 /* Default@2x.png in Resources */,
+				7D98A636163AA36400AAD327 /* Default-568h@2x.png in Resources */,
+				7D98A644163AA40100AAD327 /* MainStoryboard.storyboard in Resources */,
+				7D98A68B163AA67300AAD327 /* greyButton.png in Resources */,
+				7D98A68C163AA67300AAD327 /* greyButton@2x.png in Resources */,
+				7D98A68D163AA67300AAD327 /* greyButtonHighlight.png in Resources */,
+				7D98A68E163AA67300AAD327 /* greyButtonHighlight@2x.png in Resources */,
+				7D98A68F163AA67300AAD327 /* LocationBlue.png in Resources */,
+				7D98A690163AA67300AAD327 /* LocationBlue@2x.png in Resources */,
+				7D98A691163AA67300AAD327 /* LocationGrey.png in Resources */,
+				7D98A692163AA67300AAD327 /* LocationGrey@2x.png in Resources */,
+				7D98A693163AA67300AAD327 /* LocationHeadingBlue.png in Resources */,
+				7D98A694163AA67300AAD327 /* LocationHeadingBlue@2x.png in Resources */,
+				7DA37B67163AAE2F00BD21CB /* icon_114.png in Resources */,
+				7DA37B6A163AAE3300BD21CB /* icon_57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D95F927163995B100FA8F69 /* Sources */ = {
+		7D98A617163AA36400AAD327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D98A62C163AA36400AAD327 /* main.m in Sources */,
+				7D98A630163AA36400AAD327 /* AppDelegate.m in Sources */,
+				7D98A647163AA46000AAD327 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D95F9861639A0DF00FA8F69 /* MainStoryboard.storyboard */ = {
+		7D98A628163AA36400AAD327 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D95F9871639A0DF00FA8F69 /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		7DC17D541639A2AC000F21B9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DC17D551639A2AC000F21B9 /* en */,
+				7D98A629163AA36400AAD327 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -224,7 +253,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7D95F94D163995B100FA8F69 /* Debug */ = {
+		7D98A637163AA36400AAD327 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		7D95F94E163995B100FA8F69 /* Release */ = {
+		7D98A638163AA36400AAD327 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,24 +303,24 @@
 			};
 			name = Release;
 		};
-		7D95F950163995B100FA8F69 /* Debug */ = {
+		7D98A63A163AA36400AAD327 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch";
 				INFOPLIST_FILE = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist";
-				PRODUCT_NAME = iOS6MapsUserHeadingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		7D95F951163995B100FA8F69 /* Release */ = {
+		7D98A63B163AA36400AAD327 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Prefix.pch";
 				INFOPLIST_FILE = "iOS6MapsUserHeadingButton/iOS6MapsUserHeadingButton-Info.plist";
-				PRODUCT_NAME = iOS6MapsUserHeadingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,25 +328,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D95F925163995B100FA8F69 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */ = {
+		7D98A615163AA36400AAD327 /* Build configuration list for PBXProject "iOS6MapsUserHeadingButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D95F94D163995B100FA8F69 /* Debug */,
-				7D95F94E163995B100FA8F69 /* Release */,
+				7D98A637163AA36400AAD327 /* Debug */,
+				7D98A638163AA36400AAD327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D95F94F163995B100FA8F69 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */ = {
+		7D98A639163AA36400AAD327 /* Build configuration list for PBXNativeTarget "iOS6MapsUserHeadingButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D95F950163995B100FA8F69 /* Debug */,
-				7D95F951163995B100FA8F69 /* Release */,
+				7D98A63A163AA36400AAD327 /* Debug */,
+				7D98A63B163AA36400AAD327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D95F922163995B100FA8F69 /* Project object */;
+	rootObject = 7D98A612163AA36400AAD327 /* Project object */;
 }

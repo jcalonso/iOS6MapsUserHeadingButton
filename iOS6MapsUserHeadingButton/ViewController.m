@@ -2,7 +2,7 @@
 //  ViewController.m
 //  iOS6MapsUserHeadingButton
 //
-//  Created by Juan Carlos Alonso on 10/25/12.
+//  Created by Juan Carlos Alonso on 10/26/12.
 //  Copyright (c) 2012 Juan Carlos Alonso. All rights reserved.
 //
 
@@ -29,7 +29,9 @@
     [userHeadingBtn setBackgroundImage:buttonImageHighlight forState:UIControlStateHighlighted];
     [userHeadingBtn setImage:buttonArrow forState:UIControlStateNormal];
     
-    //Button shadow
+    //Position and Shadow
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    userHeadingBtn.frame = CGRectMake(5,screenBounds.size.height-145,39,30);
     userHeadingBtn.frame = CGRectMake(5,425,39,30);
     userHeadingBtn.layer.cornerRadius = 8.0f;
     userHeadingBtn.layer.masksToBounds = NO;
@@ -78,7 +80,6 @@
 
 - (void)mapView:(MKMapView *)mapView didChangeUserTrackingMode:(MKUserTrackingMode)mode animated:(BOOL)animated{
     if(self.mapView.userTrackingMode == 0){
-        NSLog(@"userTrackingMode");
         [self.mapView setUserTrackingMode: MKUserTrackingModeNone animated: YES];
         
         //Put it back again
